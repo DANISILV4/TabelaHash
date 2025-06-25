@@ -50,7 +50,7 @@ int main() {
     remover(minhaTabela, 999); // Tenta remover uma chave que nao existe
     remover(minhaTabela, 5);   // Remove a primeira chave de uma lista com colisoes
 
-    printf("\n--- Resultados de Desempenho (para o Banner) ---\n"); 
+    printf("\n--- Resultados de Desempenho ---\n"); 
     
     printf("Numero total de elementos na tabela: %d\n", minhaTabela->numElementos);
     printf("Tamanho da Tabela (quantidade de gavetas): %d\n", minhaTabela->tamanho);
